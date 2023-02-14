@@ -5,7 +5,7 @@
 
 #menu-laterale{
     background-color: yellowgreen;
-    height: 100%;
+    height: calc(100vh - 70px);
     overflow: hidden;
 }
 
@@ -13,6 +13,21 @@
     overflow-y: scroll;
     height: calc(100vh - 70px);
 }
+
+/* menu laterale  */
+#menu-laterale span{
+    display: none;
+}
+
+
+@media screen and (min-width:992px){
+    #menu-laterale span{
+        display: inline-block;
+    }
+}
+
+
+
 .top-main{
     background-color: fuchsia;
 }
@@ -31,3 +46,6 @@
 .colonna2{
     background-color: green;
 }
+
+
+
