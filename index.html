@@ -22,36 +22,46 @@
     <header>
         <div class="container-fluid">
             <div class="menu-header row justify-content-center align-items-center">
-                 <!-- logo  -->
+                <!-- logo  -->
                 <div class="col-2 logo">logo</div>
-                 <!-- input search  -->
+                <!-- input search  -->
                 <div class="col-8 search-bar">
-                  <input type="text" placeholder="Prova a cercare: Lezioni di Laravel" class="w-100">
+                    <input type="text" placeholder="Prova a cercare: Lezioni di Laravel" class="w-100">
                 </div>
-                 <!-- top icone  -->
+                <!-- top icone  -->
                 <div class="col-2 icons">icons</div>
             </div>
         </div>
     </header>
     <!-- fine header  -->
     <main>
-        <!-- contenitore del main  -->
-        <div class="container-xxl">
-            <div class="row justify-content-between">
-                <div class="menu-laterale col">menu laterale</div>    <!-- contenitore manu-laterale  -->
-                <div class="big-main col-10">      <!-- contenitore main  -->
-                    <div class="top-main row">
-                        <div class=" col-12">nuovo utente</div>
-                        <div class=" col-12">boolean</div>
-                        <div class=" col-12">125</div>
-                    </div>
-                    <div class="row">
-                        <div class="col">1</div>
-                        <div class="col">2</div>
-                    </div>
-                </div> 
+            <!-- contenitore del main  -->
+            <div id="content-container">
+                <div class="row">
+                    <div id="menu-laterale" class="col-1 d-flex flex-column justify-content-between">
+                        <div>
+                            <ul class="list-unstyled">
+                                <li>icona</li>
+                                <li>icona</li>
+                                <li>icona</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div>icona</div>
+                        </div>
+                    </div>    <!-- contenitore manu-laterale  -->
+                    <div id="content-container" class="big-main col-11">      <!-- contenitore main  -->
+                        <div class="top-main row">
+                            <div class=" col-12">nuovo utente</div>
+                            <div class=" col-12">boolean</div>
+                            <div class=" col-12">125</div>
+                        </div>
+                        <div id="content-main" class="row">
+                            <div class="col">1</div>
+                        </div>
+                    </div> 
+                </div>
             </div>
-        </div>
     </main>
 </body>
 

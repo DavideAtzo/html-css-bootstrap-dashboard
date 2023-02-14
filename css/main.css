@@ -1,13 +1,19 @@
-.menu-laterale{
+#menu-laterale{
     background-color: yellowgreen;
-    height: 100%;
+    max-width: 150px;
+    overflow: hidden;
 }
 
-.big-main{
+#content-main{
     background-color: orange;
     height: 100vh;
+    overflow-y: auto;
 }
 
 .top-main{
     background-color: fuchsia;
+}
+
+#content-container{
+    height: calc(100vh - 70px);  /* 70 pixel heade  */
 }
