@@ -6,14 +6,15 @@
 
 #content-main{
     background-color: orange;
-    height: 100vh;
-    overflow-y: auto;
 }
 
 .top-main{
     background-color: fuchsia;
 }
 
-#content-container{
-    height: calc(100vh - 70px);  /* 70 pixel heade  */
+
+
+#t-menu-icons,
+#b-menu-icons{
+    padding: .625rem 1.5625rem .625rem 1.5625rem;
 }
