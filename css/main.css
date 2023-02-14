@@ -10,7 +10,7 @@
 }
 
 #content-container{
-    overflow: auto;
+    overflow-y: scroll;
     height: calc(100vh - 70px);
 }
 .top-main{
@@ -18,14 +18,18 @@
 }
 #content-main{
     background-color: orange;
-    overflow-y: scroll;
+    
     
 }
-
-
-
 
 #t-menu-icons,
 #b-menu-icons{
     padding: .625rem 1.5625rem .625rem 1.5625rem;
+}
+
+.colonna1{
+    background-color: slateblue;
+}
+.colonna2{
+    background-color: green;
 }
