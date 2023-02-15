@@ -4,9 +4,9 @@ main{
 }
 
 #menu-laterale{
-    background-color: yellowgreen;
-    /* height: calc(100vh - 70px);
-    overflow: hidden; */
+    background-image: url("../img/sidebar-bg.png");
+    background-color: var(--menu-laterale);
+    color: white;
 }
 
 #content-container{
@@ -22,6 +22,7 @@ menu laterale
 */
 #menu-laterale i{
     font-size: 22px;
+
 }
 
 #menu-laterale span{
