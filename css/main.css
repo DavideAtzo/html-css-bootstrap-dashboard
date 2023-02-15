@@ -154,3 +154,18 @@ table button{
     color: var(--icon-table);
     border-radius: .375rem;
 }
+
+
+.hidden-col{
+    display: none;
+}
+
+table td{
+    text-align: center;
+}
+
+@media screen and (min-width:768px){
+    .hidden-col{
+        display: inline-block;
+    }
+}
