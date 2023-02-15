@@ -80,9 +80,39 @@ top main
     background-color: var(--badge);
 }
 
-#boolean-apps .n.apps::after{
-    content: ;
+.boolean-type-app{
+    display: none;
 }
+
+
+h1{
+    font-size: 26px;
+}
+h3{
+    font-size: 16px;
+}
+@media screen and (min-width:768px){
+    .nuovo-studente{
+        order: 1;
+    }
+    #boolean{
+        padding-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width:992px){
+    .boolean-type-app{
+        display: inline-block;
+    }
+    .badge-plus{
+        display: none;
+    }
+    
+}
+
+
+
+
 /*
 +++++++++++++++
 top main
