@@ -23,17 +23,30 @@ menu laterale
 #menu-laterale li{
     padding-bottom: .9375rem;
 }
+#menu-laterale li:hover,
+#menu-laterale #b-menu-icons:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
 
 #menu-laterale i{
     font-size: 22px;
+    margin-bottom: .9375rem;
 }
 
 #menu-laterale span{
     display: none;
 }
 
+#t-menu-icons,
+#b-menu-icons{
+    margin: 1.875rem 1.5625rem .625rem 1.5625rem;
+}
 
 @media screen and (min-width:992px){
+    #menu-laterale{
+            width: 150px;
+    }
+
     #menu-laterale span{
         display: inline-block;
     }
@@ -136,11 +149,6 @@ content main
 */
 
 
-#t-menu-icons,
-#b-menu-icons{
-    padding: .625rem 1.5625rem .625rem 1.5625rem;
-}
-
 table img{
     width: 1.875rem;
 }
@@ -167,10 +175,9 @@ table td{
 
 @media screen and (min-width:768px){
     .hidden-col{
-        display: inline-block;
+        display: table-cell;
     }
 }
-
 
 @media screen and (min-width:992px){
     #faq{
