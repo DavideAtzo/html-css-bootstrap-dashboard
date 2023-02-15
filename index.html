@@ -81,17 +81,27 @@
                     <span>Admin</span>
                 </div>
             </div> <!-- contenitore manu-laterale  -->
-            <div id="content-container"> <!-- contenitore main  -->
+            <div id="content-container" class="flex-grow-1">
                 <div class="container-fluid top-main">
                     <div class="row">
-                        <div class="col-12 py-4 d-flex">
+                        <div class="col-12 col-md-4 py-4">
                             <h3>Nuovo Studente</h3>
-                            <button id="more-student" type="button" class="btn btn-primary ms-4">+</button>
+                            <button id="more-student" class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">+</button>
+                            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Inserisci un nuovo studente</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <p>Try scrolling the rest of the page to see this option in action.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 col-md-4">
                             <h1>Boolean</h1>
                         </div>
-                        <div class="col-12 py-4">
+                        <div class="col-12 col-md-4 py-4">
                             <h3>Studenti online negli ultimi 30 minuti</h3>
                             <div class="fs-1">125</div>
                         </div>
