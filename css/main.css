@@ -76,7 +76,13 @@ top main
     border: var(--bs-border-width) solid var(--bs-border-color);
     border-radius: .375rem;
 }
+#boolean span{
+    background-color: var(--badge);
+}
 
+#boolean-apps .n.apps::after{
+    content: ;
+}
 /*
 +++++++++++++++
 top main
