@@ -12,6 +12,7 @@
 #content-container{
     overflow-y: scroll;
     height: calc(100vh - 70px);
+    margin: 0;
 }
 
 /*
@@ -45,9 +46,6 @@ top main
 +++++++++++++++
 */
 
-#content-main{
-    background-color: orange;
-}
 
 #t-menu-icons,
 #b-menu-icons{

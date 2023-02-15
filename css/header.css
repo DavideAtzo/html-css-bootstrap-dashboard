@@ -6,3 +6,12 @@ header{
 .menu-header{
     height: 4.375rem;
 }
+
+.logo-a{
+    width: 1.875rem;
+}
+
+.logo-b{
+    width: 8.4375rem;
+    display: none;
+}
