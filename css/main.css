@@ -139,12 +139,18 @@ content main
     padding: .625rem 1.5625rem .625rem 1.5625rem;
 }
 
-.colonna1{
-    background-color: slateblue;
-}
+
 .colonna2{
     background-color: green;
 }
 
-
-
+table img{
+    width: 1.875rem;
+}
+table button{
+    width: 1.875rem;
+    height: 1.875rem;
+    background-color: var(--icon-input-color);
+    color: var(--icon-table);
+    border-radius: .375rem;
+}
