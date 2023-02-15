@@ -49,7 +49,12 @@ top main
 +++++++++++++++
 */
 .top-main{
-    background-color: fuchsia;
+    background-color: var(--top-menu);
+    color: white;
+}
+
+#more-student{
+    border-color: white;
 }
 
 /*
