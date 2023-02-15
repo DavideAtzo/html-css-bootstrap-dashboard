@@ -12,6 +12,34 @@ header{
 }
 
 .logo-b{
-    width: 8.4375rem;
+    width: 100%;
+    max-width: 8.4375rem;
     display: none;
+
+}
+
+.menu-header input{
+    border: none;
+    background-color: var(--grey-1);
+    padding: .3125rem;
+    border-top-right-radius: .625rem;
+    border-bottom-right-radius: .625rem;
+}
+
+.menu-header .search-bar a{
+    background-color: var(--grey-1);
+    border-right: none;
+    padding: .3125rem;
+    border-top-left-radius: .625rem;
+    border-bottom-left-radius: .625rem;
+}
+
+
+@media screen and (min-width:992px){
+    .logo-b{
+        display: block;
+    }
+    .logo-a{
+        display: none;
+    }
 }
