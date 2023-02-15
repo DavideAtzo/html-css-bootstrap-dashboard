@@ -83,7 +83,17 @@ top main
 .boolean-type-app{
     display: none;
 }
-
+.offcanvas-body label{
+    display: flex;
+    padding: .625rem 0;
+}
+.checkbox input,
+.offcanvas-body button{
+    margin-right: .625rem;
+}
+.checkbox{
+    margin: .9375rem 0;
+}
 
 h1{
     font-size: 26px;
@@ -110,6 +120,9 @@ h3{
     }
     .studenti-online{
         padding: 0;
+    }
+    .offcanvas{
+        max-width: 50%;
     }
 }
 
