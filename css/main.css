@@ -160,6 +160,9 @@ table button{
 table td{
     text-align: center;
 }
+#report{
+    text-decoration: underline;
+}
 
 @media screen and (min-width:768px){
     .hidden-col{
