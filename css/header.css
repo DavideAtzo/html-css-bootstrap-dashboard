@@ -35,7 +35,7 @@
 
 #bell{
     color: var(--bell);
-    padding-left: 0.625rem;
+    padding-left: .625rem;
     padding-right: .625rem;
 }
 
