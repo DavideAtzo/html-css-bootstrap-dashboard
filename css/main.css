@@ -87,8 +87,10 @@ top main
     display: flex;
     padding: .625rem 0;
 }
+
 .checkbox input,
-.offcanvas-body button{
+.offcanvas-body button,
+.list-group-flush input{
     margin-right: .625rem;
 }
 .checkbox{
