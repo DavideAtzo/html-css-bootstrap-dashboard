@@ -14,7 +14,11 @@
     height: calc(100vh - 70px);
 }
 
-/* menu laterale  */
+/*
++++++++++++++++
+menu laterale
++++++++++++++++
+*/
 #menu-laterale span{
     display: none;
 }
@@ -26,11 +30,21 @@
     }
 }
 
-
-
+/*
++++++++++++++++
+top main
++++++++++++++++
+*/
 .top-main{
     background-color: fuchsia;
 }
+
+/*
++++++++++++++++
+top main
++++++++++++++++
+*/
+
 #content-main{
     background-color: orange;
 }
