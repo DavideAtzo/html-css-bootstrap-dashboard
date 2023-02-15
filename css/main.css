@@ -20,9 +20,12 @@ main{
 menu laterale
 +++++++++++++++
 */
+#menu-laterale li{
+    padding-bottom: .9375rem;
+}
+
 #menu-laterale i{
     font-size: 22px;
-
 }
 
 #menu-laterale span{
@@ -33,6 +36,10 @@ menu laterale
 @media screen and (min-width:992px){
     #menu-laterale span{
         display: inline-block;
+    }
+   
+    #menu-laterale i{
+        padding-right: .9375rem;
     }
 }
 
