@@ -94,6 +94,7 @@ h3{
 @media screen and (min-width:768px){
     .nuovo-studente{
         order: 1;
+        text-align: center;
     }
     #boolean{
         padding-top: 1.5rem;
@@ -107,7 +108,9 @@ h3{
     .badge-plus{
         display: none;
     }
-    
+    .studenti-online{
+        padding: 0;
+    }
 }
 
 
