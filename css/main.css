@@ -20,6 +20,10 @@
 menu laterale
 +++++++++++++++
 */
+#menu-laterale i{
+    font-size: 22px;
+}
+
 #menu-laterale span{
     display: none;
 }
