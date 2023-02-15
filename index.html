@@ -88,13 +88,87 @@
                             <h3>Nuovo Studente</h3>
                             <button id="more-student" class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">+</button>
-                            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                            <div class="offcanvas offcanvas-end w-100" data-bs-scroll="true" data-bs-backdrop="false"
+                                tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                                 <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Inserisci un nuovo studente</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"aria-label="Close"></button>
+                                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Inserisci un nuovo studente
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                    <p>Try scrolling the rest of the page to see this option in action.</p>
+                                    <form action="">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div><label for="name">Name</label></div>
+                                                <input type="name" class="form-control">
+                                            </div>
+                                            <div class="col-6">
+                                                <div><label for="cognome">Cognome</label></div>
+                                                <input type="name" class="form-control" id="cognome">
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="email">Email</label>
+                                                <div class="d-flex">
+                                                    <span class="icon-input">@</span>
+                                                    <input type="email" class="form-control ms-input" id="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="password">Password</label>
+                                                <input type="password" class="form-control" id="password">
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="email">Indirizzo Email</label>
+                                                <div class="d-flex">
+                                                    <span class="icon-input">@</span>
+                                                    <input type="email" class="form-control ms-input" id="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="password">Password</label>
+                                                <input type="password" class="form-control" size=8 id="password">
+                                            </div>
+                                            <div class="col-12">
+                                                <div><label for="indirizzo">Indirizzo</label></div>
+                                                <input type="text" class="form-control" id="indirizzo">
+                                            </div>
+                                            <div class="col-6">
+                                                <div><label for="indirizzo">Indirizzo</label></div>
+                                                <input type="text" class="form-control" id="indirizzo">
+                                            </div>
+                                            <div class="col-3">
+                                                <label for="stato">Stato</label>
+                                                <select name="stato" id="stato" class="ms-input-box w-100">
+                                                    <option value="Scegli">Scegli..</option>
+                                                    <option value="Italia">Italia</option>
+                                                    <option value="Spagna">Spagna</option>
+                                                    <option value="Francia">Francia</option>
+                                                    <option value="Alieno">Alieno</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-3">
+                                                <label for="stato">CAP</label>
+                                                <input type=text name="cap" size=5 maxlength=5
+                                                    class="ms-input-box w-100">
+                                            </div>
+                                            <div class="col-12 mb-3">
+                                                <label for="formFile" class="form-label">Foto</label>
+                                                <input class="form-control" type="file" id="formFile">
+                                            </div>
+                                            <div class="col-7">
+                                                <input type="checkbox" id="seleziona"><span>Seleziona per
+                                                    proseguire</span>
+                                            </div>
+                                            <div class="col-7">
+                                                <button type="button" class="btn btn-primary">Primary</button>
+                                                <button type="button" class="btn btn-warning">Warning</button>
+                                            </div>
+                                        </div>
+
+
+
+                                    </form>
                                 </div>
                             </div>
                         </div>
